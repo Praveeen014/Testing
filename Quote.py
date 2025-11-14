@@ -6,13 +6,22 @@ import json
 
 all_quotes=[]
 base_url='https://quotes.toscrape.com/'
+page =1
+while True:
+    url=f'{base_url}/page/{page}/'
 
-for i in range(100):
-    r=requests.get(f'https://quotes.toscrape.com/page/{i}/')
+
+    r=requests.get(url)
     response =Selector(r.text)
+
+    var= response.xpath('//div[@class="quote"]')
+
+    if not var:
+        print ("no more page")
+        break
     
 
-    for list in response.xpath('//div[@class="quote"]'):
+    for list in var:
     
         text = list.xpath('.//span[@class="text"]/text()').get()
         author = list.xpath('.//small[@class="author"]/text()').get()
@@ -35,12 +44,7 @@ for i in range(100):
         } 
     
         all_quotes.append(quote)
-    # logic for next page
-    next_page =response.xpath('//li[@class="next"]/a/@href').get()
-    if next_page:
-        url=base_url+next_page
-    else:
-        break
+    page += 1
 
 
     f = open("quotes.json", "w", encoding="utf-8")

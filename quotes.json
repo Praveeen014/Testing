@@ -838,5 +838,94 @@
             "sun"
         ],
         "about_link": "https://quotes.toscrape.com//author/C-S-Lewis"
+    },
+    {
+        "text": "“The truth.\" Dumbledore sighed. \"It is a beautiful and terrible thing, and should therefore be treated with great caution.”",
+        "author": "J.K. Rowling",
+        "tags": [
+            "truth"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/J-K-Rowling"
+    },
+    {
+        "text": "“I'm the one that's got to die when it's time for me to die, so let me live my life the way I want to.”",
+        "author": "Jimi Hendrix",
+        "tags": [
+            "death",
+            "life"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/Jimi-Hendrix"
+    },
+    {
+        "text": "“To die will be an awfully big adventure.”",
+        "author": "J.M. Barrie",
+        "tags": [
+            "adventure",
+            "love"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/J-M-Barrie"
+    },
+    {
+        "text": "“It takes courage to grow up and become who you really are.”",
+        "author": "E.E. Cummings",
+        "tags": [
+            "courage"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/E-E-Cummings"
+    },
+    {
+        "text": "“But better to get hurt by the truth than comforted with a lie.”",
+        "author": "Khaled Hosseini",
+        "tags": [
+            "life"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/Khaled-Hosseini"
+    },
+    {
+        "text": "“You never really understand a person until you consider things from his point of view... Until you climb inside of his skin and walk around in it.”",
+        "author": "Harper Lee",
+        "tags": [
+            "better-life-empathy"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/Harper-Lee"
+    },
+    {
+        "text": "“You have to write the book that wants to be written. And if the book will be too difficult for grown-ups, then you write it for children.”",
+        "author": "Madeleine L'Engle",
+        "tags": [
+            "books",
+            "children",
+            "difficult",
+            "grown-ups",
+            "write",
+            "writers",
+            "writing"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/Madeleine-LEngle"
+    },
+    {
+        "text": "“Never tell the truth to people who are not worthy of it.”",
+        "author": "Mark Twain",
+        "tags": [
+            "truth"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/Mark-Twain"
+    },
+    {
+        "text": "“A person's a person, no matter how small.”",
+        "author": "Dr. Seuss",
+        "tags": [
+            "inspirational"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/Dr-Seuss"
+    },
+    {
+        "text": "“... a mind needs books as a sword needs a whetstone, if it is to keep its edge.”",
+        "author": "George R.R. Martin",
+        "tags": [
+            "books",
+            "mind"
+        ],
+        "about_link": "https://quotes.toscrape.com//author/George-R-R-Martin"
     }
 ]
